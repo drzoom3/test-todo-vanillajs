@@ -89,6 +89,7 @@ const app = (function() {
                 for (let i = 0, l = inputs.length; i < l; i++) {
                     let el = inputs[i];
                     el.value = '';
+                    el.classList.remove('error')
                 }
             }
 
